@@ -18,7 +18,7 @@ const SidebarSearch = () => {
     unknownError: 'Упс! Неизвестная ошибка, попробуйте ещё раз',
   };
 
-  const exceptedLocations = ['state', 'city', 'town', 'village', 'hamlet', 'province'];
+  const exceptedLocations = ['state', 'city', 'town', 'village', 'hamlet', 'province', 'county', 'municipality'];
 
   const {
     isLoading,
@@ -56,6 +56,7 @@ const SidebarSearch = () => {
     }
     const locationType = locationInfo.addresstype;
     const locationName = locationInfo.name;
+    console.log(locationType);
     if (!exceptedLocations.includes(locationType) || !isCyrillicWord(locationName)) {
       throw new Error('wrongLocation');
     }
