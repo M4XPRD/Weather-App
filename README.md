@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+## Описание:
+[Weather App](bit.ly/weather-app-m4xprd) — приложение, показывающее погоду в любом населённом пункте по запросу. Построено сначала на чистом HTML/CSS/JS, а затем перебазированное на React. Приложение не использует ни одной сторонней библиотеки (даже UI), только ESLint по стандарту AirBnb.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Особенности:
 
-## Available Scripts
+• Доступен прогноз погоды на неделю или почасовой
 
-In the project directory, you can run:
+• Доступны данные по скорости ветра, направлению ветра, влажности, видимости и давлению
 
-### `npm start`
+• Приложение имеет тёмную тему и историю поиска, которые сохраняются в браузере
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+• Из-за особенностей API прогноз на неделю неполный и доступны лишь 5 дней
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+• Из-за особенностей API почасовой прогноз показывает данные с интервалом не в 1, а в 3 часа
 
-### `npm test`
+• Приложение имеет полную адаптивность и вёрстка адаптирована под большинство устройств
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Установка:
 
-### `npm run build`
+```sh
+Все команды запускаются из корня
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Шаг 1 — Клонируем репозиторий
+$ https://github.com/M4XPRD/Weather-App
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Шаг 2 — Устанавливаем зависимости
+$ npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+# Шаг 3 — Запускаем проект
+$ npm start
+```
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Скриншоты приложения:
+![Screenshot_1](https://github.com/M4XPRD/Weather-App/assets/86636158/aaefccd0-07a9-495e-8b79-cebc79978b41)
+![Screenshot_2](https://github.com/M4XPRD/Weather-App/assets/86636158/e9e84925-51f1-470e-91fd-3059c5b5eca2)
+![Screenshot_3](https://github.com/M4XPRD/Weather-App/assets/86636158/b79f7d7d-3df0-4701-8b34-6196a63b198c)
