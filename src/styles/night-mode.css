@@ -1,0 +1,103 @@
+.night-on .weather-background {
+  filter: unset;
+}
+
+.night-on .night-mode-icon {
+  filter: brightness(100) invert(1);
+}
+
+.night-on .night-mode-circle {
+  background-color: var(--night-mode-circle);
+  
+  transform: translateX(28px);
+  transition: all 0.5s ease;
+}
+
+.night-on .search-sidebar-cross {
+  filter: brightness(0.5) invert(1);
+}
+
+.night-on ::-webkit-search-cancel-button {
+  -webkit-appearance: none;
+  filter: brightness(0.5) invert(1);
+}
+
+.night-on .forecast-weather-panel {
+  background-color: var(--night-mode-main);
+
+  transition: all 0.5s ease;
+}
+
+.night-on .sidebar,
+.night-on .circle-for-arrow,
+.night-on .weather-card,
+.night-on .today-card,
+.night-on .search-sidebar,
+.night-on .find-button {
+  background-color: var(--night-mode-rest);
+
+  transition: all 0.5s ease;
+}
+
+.night-on .lds-ellipsis div {
+  background: var(--wind-grey);
+}
+
+
+.night-on .sidebar,
+.night-on .sidebar-button,
+.night-on .sidebar-night-mode-button,
+.night-on .sidebar-temperature,
+.night-on .sidebar-weather,
+.night-on .search-sidebar-error,
+.night-on .search-input,
+.night-on .search-input::placeholder,
+.night-on .navigation-main,
+.night-on .forecast-navigation,
+.night-on .weather-card,
+.night-on .today-card,
+.night-on .humidity-scale,
+.night-on .search-sidebar,
+.night-on .find-button,
+.night-on .forecast-today {
+  color: var(--wind-grey);
+
+  transition: all 0.5s ease;
+}
+
+.night-on .active-button,
+.night-on .history-location:hover {
+  background-color: var(--night-mode-main);
+}
+
+.night-on .history-location {
+  color: var(--wind-grey);
+}
+
+.night-on .navigation-weekly,
+.night-on .navigation-hourly {
+  color: var(--wind-grey);
+
+  transition: background-color 0.5s ease;
+}
+
+.night-on .forecast-navigation .active {
+  border-color: var(--wind-grey);
+}
+
+.night-on .forecast-navigation .non-active,
+.night-on .night-temperature {
+  color: var(--night-mode-support-elements);
+
+  transition: all 0.5s ease;
+}
+
+.night-on .arrow {
+  filter: invert(1)brightness(2);
+}
+
+.night-on .blocked {
+  filter: invert(1)brightness(1);
+
+  transition: all 0.5s ease;
+}
