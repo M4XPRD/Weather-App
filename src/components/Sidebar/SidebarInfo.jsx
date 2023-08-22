@@ -109,7 +109,6 @@ const SidebarInfo = () => {
               src={handleWeatherIcon('image-background')}
               className="weather-background"
               alt={handleWeatherIcon('image-description')}
-              // style={{ background: `url(${handleWeatherIcon('image-background')})` }}
             />
             <img src={handleWeatherIcon('image-icon')} className="small-weather-icon" alt={handleWeatherIcon('image-description')} />
           </>
