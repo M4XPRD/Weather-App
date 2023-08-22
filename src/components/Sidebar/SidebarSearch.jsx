@@ -56,7 +56,6 @@ const SidebarSearch = () => {
     }
     const locationType = locationInfo.addresstype;
     const locationName = locationInfo.name;
-    console.log(locationType);
     if (!exceptedLocations.includes(locationType) || !isCyrillicWord(locationName)) {
       throw new Error('wrongLocation');
     }
