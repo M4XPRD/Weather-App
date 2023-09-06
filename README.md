@@ -1,5 +1,5 @@
 ## Описание:
-[Weather App](bit.ly/weather-app-m4xprd) — приложение, показывающее погоду в любом населённом пункте по запросу. Построено сначала на чистом HTML/CSS/JS, а затем перебазированное на React. Приложение не использует ни одной сторонней библиотеки (даже UI), только ESLint по стандарту AirBnb.
+[Weather App](https://weather-app-sooty-chi.vercel.app/) — приложение, показывающее погоду в любом населённом пункте по запросу. Построено сначала на чистом HTML/CSS/JS, а затем перебазированное на React. Приложение не использует ни одной сторонней библиотеки (даже UI), только ESLint по стандарту AirBnb.
 
 Дизайн был создан по [Figma-макету](https://www.figma.com/file/LiqawWxelxCZtpxt7SchNT/Weather-App-Dark?type=design&node-id=0-1&mode=design&t=l4IWdgvm1vjkb9Yw-0) от [PREAX](https://preax.ru/).
 
